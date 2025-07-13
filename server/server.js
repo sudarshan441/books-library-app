@@ -13,7 +13,7 @@ const myBookRoutes = require('./routes/myBookRoutes');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173', // frontend URL (Vite dev server)
+  origin: 'https://books-library-app-ivory.vercel.app', // frontend URL (Vite dev server)
   credentials: true
 }));
 
